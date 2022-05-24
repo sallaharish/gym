@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Festive&family=Montserrat:wght@300&family=Open+Sans:wght@800&family=Russo+One&family=Satisfy&display=swap');
+body{
+    margin: 0px;
+    padding:0px;
+    
+    background-image: url("../images/bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+li,a,button{
+    font-family: 'Festive', cursive;
+    font-weight: 300;
+    font-size: 30px;
+    color: #edf0f1;
+    text-decoration: none;
+    
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding:10px 10%;
+    
+
+}
+header div{
+    background-color:#ced4da ;
+}
+header img{
+    height:10vh;
+    width:20vh;
+    cursor: pointer;
+}
+.navlinks li{
+    display:inline-block;
+    margin :0 20px;
+
+
+}
+.navlinks li a{
+    transition: all 0.3s ease 0s;
+}
+
+.navlinks li a:hover{
+    color :#b08968;
+}
+button{
+    padding: 9px 25px;
+    background-color: #9f6138;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+
+}
+button:hover{
+    background-color:#495057;
+}
+.container{
+    border:2px solid white;
+    margin: 106px 80px;
+    padding: 13px;
+    width: 520px;
+    border-radius: 28px;
+}
+h1{
+    color: white;
+    text-align: center;
+    font-family: 'Festive', cursive;
+    color: #ced4da;
+}
+.container button{
+    margin-top: 20px;
+    text-align: center;
+    
+    width:508px;
+}
+.form-group input{
+    text-align: center;
+    display: block;
+    width:508px;
+    padding:1px;
+    border: 2px solid red;
+    margin:3px auto;
+    font-size: 25px;
+    border-radius:8px;
+
+}
+
